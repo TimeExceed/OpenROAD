@@ -35,7 +35,7 @@
 
 include("openroad")
 
-find_package(LEMON REQUIRED)
+find_package(lemon REQUIRED)
 
 swig_lib(NAME      cts
          NAMESPACE cts
